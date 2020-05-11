@@ -69,7 +69,9 @@ Our first challenge consisted in uniformizing businesses' opening times. In the 
 
 ---
 
-**OBJECTIVE**: Display correctly formatted opening times (XX:XX-XX:XX) on days during which businesses are open or empty cells on days during which they are closed
+```diff
+- **OBJECTIVE**: Display correctly formatted opening times (XX:XX-XX:XX) on days during which businesses are open or empty cells on days during which they are closed
+```
 
 ---
 
@@ -81,7 +83,7 @@ Our first challenge consisted in uniformizing businesses' opening times. In the 
 &nbsp;
 
 ```diff
-~~~-~~~ text in red
+- text in red
 + text in green
 ! text in orange
 # text in gray
