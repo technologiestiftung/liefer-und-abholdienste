@@ -279,7 +279,7 @@ Typeform$strasse_nr <- as.character(Typeform$strasse_nr)
 Typeform$strasse_nr[1179] <- "Grünbergallee 101"
 
 # Load API
-ggmap::register_google(key = "AIzaSyAFX4SmuFdeE0kwY6X8h073gFL1FE2w48Q")
+ggmap::register_google(key = "") # Input own key here
 
 address_with_zip <- paste(Typeform$strasse_nr,Typeform$plz)
 
