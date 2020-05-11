@@ -30,8 +30,23 @@ As of of April 29th, 2020, 1,120 responses (each representing a single business)
 **Figure 1: Number of Daily Submissions**
 
 ![](graph1.png)
+&nbsp;
+
+
+Most of the survey questionnaire was open-ended, with respondents being free to enter their answers in text boxes, rather than by selecting from a set of predefined options. On the one hand, this allowed for more flexibility in the data collection process and increased the user-friendliness of the survey (it also enabled the survey to be quickly created, since there was no need for custom coding). On the other hand, however, this format created the need for subsequent data cleaning before the data could be published and reused by a wider audience. 
 
 &nbsp;
+
+Our workflow for this project was the following. The data generating process was conducted using Typeform, which automatically saved businesses' responses in a Google Spreadsheet. This dataset was then exported as a .csv file and cleaned using R, an open-source programming language. Some additional variables, such as geographic coordinates and unique user IDs, were also generated during this step. Finally, a clean .csv file was exported from R and uploaded in a new Google Spreadsheet for a final, manual check-up.
+
+&nbsp;
+
+**Figure 2: Project Workflow**
+
+![](graph2.png)
+
+&nbsp;
+
 
 #### 1.2 Redrawing Geodata
 
