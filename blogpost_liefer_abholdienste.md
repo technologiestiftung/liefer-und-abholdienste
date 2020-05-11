@@ -68,12 +68,10 @@ Our first challenge consisted in uniformizing businesses' opening times. In the 
 
 &nbsp;
 
----
 
-```diff
+:::
 OBJECTIVE: Display correctly formatted opening times (XX:XX-XX:XX) on days during which businesses are open or empty cells on days during which they are closed
-```
----
+:::
 
 
 &nbsp;
