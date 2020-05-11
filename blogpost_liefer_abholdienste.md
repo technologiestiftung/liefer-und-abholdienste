@@ -76,7 +76,7 @@ Our first challenge consisted in uniformizing businesses' opening times. In the 
 &nbsp;
 
 
-A first series of manipulations were conducted using R's base gsub() function, which replaces strings (i.e. letters, numbers, symbols, punctuation, etc.) with other strings of one's choosing. Strings indicating specific concepts or opening times, as well as common typos---such as using ";" instead of ":"---were the central concern of these initial modifications.
+A first series of manipulations were conducted using R's base `gsub()` function, which replaces strings (i.e. letters, numbers, symbols, punctuation, etc.) with other strings of one's choosing. Strings indicating specific concepts or opening times, as well as common typos---such as using ";" instead of ":"---were the central concern of these initial modifications.
 
 &nbsp;
 
@@ -94,5 +94,20 @@ A first series of manipulations were conducted using R's base gsub() function, w
 
 &nbsp;
 
+
+The next series of manipulations concentrated on generating opening times composed strictly of 11 characters (i.e. following the "XX:XX-XX:XX" format). Our code thus needed to add the correct number of missing characters to incorrect opening times patterns without generating inappropriate outputs for all entries. After removing white spaces, the typical incorrect formats and their associated number of characters were the following.
+
+
+
 &nbsp;
+
+**Table 2: Common Incorrect Time Formatting**
+
+
+| Error Type | Original Format | Number of Characters | Corrected Format |
+|------------|-----------------|----------------------|------------------|
+| A          | "12-18"         | 5                    | "12:00-18:00"    |
+| B          | "12-18:00"      | 8                    | "12:00-18:00"    |
+| C          | "12:00-18"      | 8                    | "12:00-18:00"    |
+| D          | "9:00-18:00:    | 10                   | "09:00-18:00"    |
 
