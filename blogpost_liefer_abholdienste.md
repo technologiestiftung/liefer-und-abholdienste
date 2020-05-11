@@ -15,6 +15,8 @@ To help support the local economy, the Berlin Senate Department for Economics, E
 
 &nbsp;
 
+---
+
 ### 2. Collecting the Data
 
 &nbsp;
@@ -47,6 +49,7 @@ Our workflow for this project was the following. The data generating process was
 
 &nbsp;
 
+---
 
 ### 3. Cleaning and Analyzing the Data
 
@@ -57,6 +60,8 @@ Our main coding efforts concentrated on three elements: (1) standardizing openin
 
 
 &nbsp;
+
+---
 
 #### 	3.1 Standardizing Opening Times
 
@@ -143,6 +148,8 @@ These "DOUBLE-CHECK" entries were manually corrected using original answers from
 
 &nbsp;
 
+---
+
 #### 	3.2 Standardizing Addresses and Getting Geographic Coordinates
 
 
@@ -179,6 +186,8 @@ Our actual code employed a loop to automatize this process for all inputted addr
 
 
 &nbsp;
+
+---
 
 #### 	3.3 Standardizing Addresses and Getting Geographic Coordinates
 
