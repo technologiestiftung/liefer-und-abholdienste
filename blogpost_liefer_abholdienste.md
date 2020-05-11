@@ -1,7 +1,5 @@
 
-# "Liefer- und Abholdienste" 
-# COVID-19 City Lab Project
-
+# Liefer- und Abholdienste (COVID-19 City Lab Project)
 
 &nbsp;
 
@@ -83,7 +81,7 @@ Our first challenge consisted in uniformizing businesses' opening times. In the 
 &nbsp;
 
 ```diff
-- text in red
+~~~-~~~ text in red
 + text in green
 ! text in orange
 # text in gray
