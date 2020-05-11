@@ -48,9 +48,22 @@ Our workflow for this project was the following. The data generating process was
 &nbsp;
 
 
-#### 1.2 Redrawing Geodata
+### 3. Cleaning and Analyzing the Data
 
 
+&nbsp;
+
+Our main coding efforts concentrated on three elements: (1) standardizing opening times, (2) standardizing addresses and converting them into geographic coordinates and (3) generating unique IDs. 
+
+
+&nbsp;
+
+#### 	3.1 Standardizing Opening Times
+
+
+&nbsp;
+
+Our first challenge consisted in uniformizing businesses' opening times. In the Typeform survey, respondents were requested to fill out their opening hours for each day of the week using the following format: "XX:XX-XX:XX". However, many entries did not fit this requested format, typically because (1) opening times were entered using an alternative notation (ex.: "12 bis 18 Uhr", "12-18", "12.00 bis 18.00 Uhr", etc.) or because (2) opening times for the entire week were encompassed in the question which inquired for Monday's opening hours. We thus needed to write code that would automatically recognize and – when possible – correct these discrepancies. 
 
 &nbsp;
 
