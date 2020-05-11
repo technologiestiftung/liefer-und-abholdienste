@@ -124,7 +124,7 @@ After these modifications, each cell containing strings that didn't match the fo
 
 &nbsp;
 
-`^\\d{2}:\\d{2}[\\-]\\d{2}:\\d{2}$`
+```^\\d{2}:\\d{2}[\\-]\\d{2}:\\d{2}$```
 
 *(Translation: "XX:XX-XX:XX", where each X is a digit between 0 and 9)*
 
