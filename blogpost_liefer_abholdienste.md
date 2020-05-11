@@ -68,6 +68,15 @@ Our first challenge consisted in uniformizing businesses' opening times. In the 
 
 &nbsp;
 
+
+```diff
+> - text in red
++ text in green
+! text in orange
+# text in gray
+```
+
+
 &nbsp;
 
 ```diff
