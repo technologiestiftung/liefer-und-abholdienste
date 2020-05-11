@@ -1,11 +1,3 @@
----
-title: 'Liefer- und Abholdienste Projekt'
-author: ""
-date: ""
-output: 
-  html_document:
-    keep_md: true
----
 
 
 &nbsp;
