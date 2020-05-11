@@ -71,11 +71,12 @@ Our first challenge consisted in uniformizing businesses' opening times. In the 
 
 ---
 
-<p>Some Markdown text with <span style="color:blue">some <em>blue</em> text</span>.</p>
+**OBJECTIVE**: Display correctly formatted opening times (XX:XX-XX:XX) on days during which businesses are open or empty cells on days during which they are closed
 
 ---
 
-OBJECTIVE: Display correctly formatted opening times (XX:XX-XX:XX) on days during which businesses are open or empty cells on days during which they are closed
+&nbsp;
+
 
 
 
