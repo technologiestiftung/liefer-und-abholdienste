@@ -69,25 +69,26 @@ Our first challenge consisted in uniformizing businesses' opening times. In the 
 
 ---
 
-```diff
-- **OBJECTIVE**: Display correctly formatted opening times (XX:XX-XX:XX) on days during which businesses are open or empty cells on days during which they are closed
-```
+**OBJECTIVE**: *Display correctly formatted opening times (XX:XX-XX:XX) on days during which businesses are open or empty cells on days during which they are closed*
 
 ---
 
 &nbsp;
 
 
-
+A first series of manipulations were conducted using R's base gsub() function, which replaces strings (i.e. letters, numbers, symbols, punctuation, etc.) with other strings of one's choosing. Strings indicating specific concepts or opening times, as well as common typos---such as using ";" instead of ":"---were the central concern of these initial modifications.
 
 &nbsp;
 
-```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-```
+**Table 1: Common String Replacements Using `gsub()`**
+
+
+| Original String             | Modified String |
+|-----------------------------|-----------------|
+| "bis"                       | "-"             |
+| ";"                         | ":"             |
+| "den ganzen Tag/ganzen Tag" | "00:00-00:00"   |
+| "Ruhetag/geschlossen"       | ""              |
 
 
 
